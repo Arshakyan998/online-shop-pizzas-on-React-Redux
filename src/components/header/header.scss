@@ -1,0 +1,44 @@
+.Header{
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;
+        align-items: center;
+
+        .btn{
+                box-sizing: border-box!important;
+  
+                height: 70px;
+                 margin: auto;
+                 padding: 5px;
+                 font-size: 15px!important;
+
+                span{
+                                        font-size: 35px!important;
+                                        display: inline-block;
+                                        margin: 5px;
+                                        font-weight: bold;
+                                      
+                                       
+
+                }
+                >img{
+                        margin-bottom: 17px;
+                }
+
+        }
+      
+                h2{
+                        
+                        font-family: 'Righteous', cursive;
+                }
+        
+
+        a{
+                outline: none;
+                text-decoration: none;
+                color: black;
+        }
+        &__main{
+                margin: 10px;
+        }
+}

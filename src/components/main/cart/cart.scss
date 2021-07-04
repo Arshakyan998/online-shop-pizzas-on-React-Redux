@@ -1,0 +1,111 @@
+$baseSize:25px;
+$baseFontFamily: 'Righteous', cursive;
+
+.cart{
+        margin:15px;
+        &__header{
+                display: flex;
+                width: 80%;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                .cart__clear{
+                        font-family: $baseFontFamily;
+                        cursor: pointer;
+                        transition: color 0.1s ease-in;
+                }
+                .cart__clear:hover{
+                        color: rgba(233, 154,35,0.5);
+                }
+        }
+        &__totalCount{
+                font-size: 20px;
+                margin: 10px;
+                padding: 10px;
+        }
+
+       &__result{
+               display: flex;
+               align-items: center;
+         }
+       &__values{
+               display: flex;
+               margin:15px  auto;
+               justify-content: space-between;
+               width: 55%;
+               padding: 15px;
+
+               .sizes{
+                       font-size: $baseSize;
+                       font-family:$baseFontFamily;
+                       margin-left: 15px;
+                       span{
+                                  padding: 5px;
+                                 
+
+                       }
+
+                       
+                        
+                       
+
+                }
+
+        }
+        &__buttons{
+                display: flex;
+                align-items: center;
+                span{
+                        font-size: $baseSize;
+                        font-family: $baseFontFamily;
+
+                }
+                
+                button {
+                        width: 35px;
+                        height: 35px;
+                        border-radius: 50%;
+                        text-align: center;
+                        background: none;
+                        outline: none;
+                        font-size: 20px;
+                        font-family: $baseFontFamily;
+                        box-sizing: border-box;
+                        margin: 10px;
+                        transition:  ease-in-out 0.2s;
+
+                }
+
+                button:hover{
+                        background: rgba(233, 154,35,0.5);
+
+                }
+
+               
+                button:last-child:hover{
+                        background: rgb(233, 154,35);
+                }
+
+                .span_price{
+                        width: auto;
+
+                }
+
+
+               
+        }
+
+        &__img{
+                margin-left: 155px;
+        }
+        &__empty{
+               
+               padding: 15px;
+                img{
+                       margin:15px auto;  
+                       display: block;
+                       padding: 15px;
+                }
+
+        }
+}
